@@ -21,9 +21,13 @@ py -m venv .venv
 .venv\Scripts\activate
 ```
 
-6. Install dependency
+6. Upgrade pip & Install dependency
 ```
-pip install requirements.txt
+python.exe -m pip install --upgrade pip
+```
+
+```
+pip install -r requirements.txt
 ```
 
 7. Ubah .env-example menjadi .env dan lengkapi dalamnya dengan username dan password twitter anda, lalu pilih proxy 
